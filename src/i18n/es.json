@@ -1,7 +1,23 @@
 {
   "nav": {
-    "features": "Funciones",
-    "pricing": "Precios",
+    "product": "Producto",
+    "core_tools": "Herramientas",
+    "planning": "Planificacion",
+    "intelligence": "Inteligencia",
+    "more": "Explorar",
+    "notes": "Notas",
+    "notes_desc": "Captura ideas con texto enriquecido",
+    "tasks": "Tareas",
+    "tasks_desc": "Gestiona prioridades y fechas",
+    "projects": "Proyectos",
+    "projects_desc": "Kanban y seguimiento de clientes",
+    "calendar": "Calendario",
+    "calendar_desc": "Eventos, reuniones y recordatorios",
+    "ai": "Asistente IA",
+    "ai_desc": "Sugerencias y resumenes de reuniones",
+    "beta": "Programa Beta",
+    "beta_desc": "Que incluye el MVP",
+    "pricing_link": "Precios",
     "faq": "FAQ",
     "download": "Descargar"
   },
@@ -80,30 +96,12 @@
     "title": "Preguntas frecuentes",
     "subtitle": "Todo lo que necesitas saber sobre Nooks",
     "items": [
-      {
-        "q": "Nooks es realmente gratis?",
-        "a": "Si. El plan gratuito incluye hasta 50 notas al mes, 20 eventos, 1 proyecto y cifrado de extremo a extremo. No se necesita tarjeta de credito para registrarse."
-      },
-      {
-        "q": "Como funciona el asistente de IA?",
-        "a": "El asistente de IA esta disponible en el plan Pro. Te ayuda a organizar notas, sugiere prioridades de tareas y puede asistirte con la escritura. Funciona con Ollama, asi que tus datos se mantienen privados."
-      },
-      {
-        "q": "Puedo usar Nooks sin conexion?",
-        "a": "Por supuesto. Nooks funciona completamente sin conexion. Todas tus notas, tareas y eventos se almacenan localmente y se sincronizan automaticamente al reconectarte."
-      },
-      {
-        "q": "Mis datos estan seguros?",
-        "a": "La seguridad es nuestra prioridad. Todos los datos estan cifrados de extremo a extremo y nunca vendemos ni compartimos tu informacion personal con terceros."
-      },
-      {
-        "q": "Puedo cambiar de Free a Pro en cualquier momento?",
-        "a": "Si, puedes mejorar o cambiar de plan en cualquier momento. Al mejorar, obtienes acceso inmediato a todas las funciones Pro. Si bajas de plan, mantienes las funciones Pro hasta el final de tu periodo de facturacion."
-      },
-      {
-        "q": "En que plataformas esta disponible Nooks?",
-        "a": "Nooks esta disponible actualmente en iOS y Android. Una version web esta en camino."
-      }
+      { "q": "Nooks es realmente gratis?", "a": "Si. El plan gratuito incluye hasta 50 notas al mes, 20 eventos, 1 proyecto y cifrado de extremo a extremo. No necesitas tarjeta de credito." },
+      { "q": "Como funciona el asistente de IA?", "a": "El asistente de IA te ayuda a organizar notas, sugiere prioridades, resume reuniones y extrae acciones. Funciona con Ollama de forma privada." },
+      { "q": "Puedo usar Nooks sin conexion?", "a": "Por supuesto. Nooks funciona completamente sin conexion. Tus datos se sincronizan automaticamente al reconectarte." },
+      { "q": "Mis datos estan seguros?", "a": "La seguridad es nuestra prioridad. Todos los datos estan cifrados de extremo a extremo. Nunca vendemos tu informacion." },
+      { "q": "Puedo cambiar de plan en cualquier momento?", "a": "Si. Mejora o cambia cuando quieras. Las funciones Pro estan disponibles de inmediato al mejorar." },
+      { "q": "En que plataformas esta Nooks?", "a": "Nooks esta disponible en iOS y Android. Una version web esta en camino." }
     ]
   },
   "cta": {
@@ -118,5 +116,269 @@
     "contact": "Contacto",
     "made_with": "Hecho con amor",
     "rights": "Todos los derechos reservados."
+  },
+  "feature_pages": {
+    "back_home": "Volver al inicio",
+    "cta_title": "Listo para probarlo?",
+    "cta_desc": "Descarga Nooks y empieza a organizar tu trabajo hoy.",
+    "cta_button": "Descargar Nooks"
+  },
+  "pages": {
+    "notes": {
+      "badge": "Funcion Principal",
+      "title": "Notas que trabajan\npara ti.",
+      "subtitle": "Captura ideas al instante con texto enriquecido, etiquetas, favoritos y busqueda potente. Tus pensamientos, organizados y siempre accesibles.",
+      "editor_tag": "Personal",
+      "feature_cards": [
+        { "title": "Editor de Texto Enriquecido", "desc": "Da formato a tus ideas con negrita, cursiva, listas y mas. Conteo de palabras y tiempo de lectura incluidos." },
+        { "title": "Etiquetas y Favoritos", "desc": "Organiza con etiquetas personalizadas. Marca notas como importantes o guardalas en favoritos." },
+        { "title": "Busqueda Potente", "desc": "Encuentra cualquier cosa por titulo, contenido o etiquetas. Filtra por rango de fechas al instante." }
+      ]
+    },
+    "tasks": {
+      "badge": "Funcion Principal",
+      "title": "Tareas, dominadas.",
+      "subtitle": "Desde tareas rapidas hasta flujos complejos. Prioridades, fechas, filtros inteligentes y seguimiento de tiempo para mantener el control.",
+      "filters": ["Todas", "Hoy", "Pendientes", "Completadas"],
+      "mock_tasks": [
+        { "title": "Revisar propuesta presupuesto Q3", "priority": "high", "due": "Hoy", "project": "Acme Corp", "time": "1h 25m", "completed": false },
+        { "title": "Disenar mockups de homepage", "priority": "high", "due": "Manana", "project": "Rediseno Web", "time": "3h 10m", "completed": false },
+        { "title": "Escribir documentacion API", "priority": "medium", "due": "Mie", "project": "", "time": "45m", "completed": false },
+        { "title": "Actualizar dependencias", "priority": "low", "due": "Vie", "project": "Backend", "time": "", "completed": false },
+        { "title": "Enviar reporte semanal", "priority": "medium", "due": "Jue", "project": "", "time": "20m", "completed": false },
+        { "title": "Configurar pipeline CI/CD", "priority": "low", "due": "", "project": "Backend", "time": "", "completed": true },
+        { "title": "Logo diseno version final", "priority": "high", "due": "", "project": "Acme Corp", "time": "5h 30m", "completed": true }
+      ],
+      "detail_title": "Detalle de Tarea",
+      "detail_desc": "Todo sobre una tarea en una vista. Prioridad, fecha, proyecto, eventos vinculados, tiempo y visibilidad para el cliente — todo de un vistazo.",
+      "detail_fields": ["Nivel de prioridad", "Fecha con formato inteligente", "Proyecto vinculado", "Eventos asociados", "Tiempo registrado", "Visibilidad para cliente"],
+      "timer_title": "Seguimiento de Tiempo Integrado",
+      "timer_desc": "Inicia y detiene temporizadores directamente desde cualquier tarea. Controla horas facturables por proyecto y ve exactamente donde va tu tiempo.",
+      "features_title": "Hecho para flujos reales",
+      "feature_cards": [
+        { "title": "Filtros Inteligentes", "desc": "Filtra al instante por Todas, Hoy, Pendientes o Completadas. Encuentra cualquier tarea en segundos." },
+        { "title": "Arrastra para Reordenar", "desc": "Reordena tareas con arrastrar y soltar. Tu orden personalizado se guarda y sincroniza entre dispositivos." },
+        { "title": "Vinculacion a Proyectos", "desc": "Conecta tareas a proyectos y eventos. Todo se mantiene en contexto, nunca aislado." },
+        { "title": "Seguimiento de Tiempo", "desc": "Temporizador con un toque en cada tarea. Controla horas, ve totales y monitorea tiempo facturable por proyecto." }
+      ],
+      "connected_title": "Conectado a todo",
+      "connected_desc": "Vincula tareas a proyectos, asocialas con eventos y sigue el progreso en todo tu flujo de trabajo."
+    },
+    "projects": {
+      "badge": "Funcion Principal",
+      "title": "Proyectos,\na tu manera.",
+      "subtitle": "Tableros Kanban, gestion de clientes, facturacion, plantillas, compartir y seguimiento de estado. Todo para gestionar trabajo profesional de inicio a fin.",
+      "mock_projects": [
+        { "name": "Rediseno Web", "color": "#5E8BFF", "status": "active", "client": "Acme Corp", "tasks": 12, "notes": 5, "events": 3, "deadline": "28 Abr", "deadlineDays": 22 },
+        { "name": "App Movil MVP", "color": "#C9FD4D", "status": "active", "client": "StartupX", "tasks": 24, "notes": 8, "events": 6, "deadline": "15 May", "deadlineDays": 39 },
+        { "name": "Identidad de Marca", "color": "#FF8C42", "status": "paused", "client": "Bloom Studio", "tasks": 7, "notes": 3, "events": 1, "deadline": "", "deadlineDays": 0 },
+        { "name": "Integracion API", "color": "#A78BFA", "status": "completed", "client": "", "tasks": 18, "notes": 2, "events": 4, "deadline": "", "deadlineDays": 0 }
+      ],
+      "kanban_tabs": ["Por Hacer", "Notas", "Eventos", "Hecho"],
+      "kanban_tasks": [
+        { "title": "Disenar hero de homepage", "priority": "high", "due": "Hoy" },
+        { "title": "Escribir documentacion API", "priority": "medium", "due": "Mie" },
+        { "title": "Configurar analiticas", "priority": "low", "due": "Vie" },
+        { "title": "Crear flujo de onboarding", "priority": "medium", "due": "" }
+      ],
+      "kanban_notes": [
+        { "title": "Notas de reunion — 3 Abr", "tags": 2 },
+        { "title": "Tokens del sistema de diseno", "tags": 1 },
+        { "title": "Feedback del cliente ronda 2", "tags": 3 }
+      ],
+      "detail_title": "Todo en una vista",
+      "detail_desc": "Abre cualquier proyecto y ve el panorama completo: estado, cliente, facturacion, plazos y todo el contenido vinculado. Tablero Kanban incluido.",
+      "client_title": "Gestion de clientes",
+      "client_desc": "Almacena nombre, email, telefono y empresa. Comparte el progreso con clientes a traves de un enlace seguro y codigo QR.",
+      "billing_title": "Facturacion y presupuestos",
+      "billing_desc": "Establece tarifas por hora, horas estimadas y presupuestos por proyecto. Controla plazos y monitorea gastos en tiempo real.",
+      "templates_title": "Empieza rapido con plantillas",
+      "templates": [
+        { "name": "Desarrollo Web", "tasks": 7, "rate": "45€/hr" },
+        { "name": "Diseno Grafico", "tasks": 6, "rate": "35€/hr" },
+        { "name": "Consultoria", "tasks": 5, "rate": "60€/hr" },
+        { "name": "Marketing Digital", "tasks": 7, "rate": "40€/hr" },
+        { "name": "Traduccion", "tasks": 5, "rate": "30€/hr" },
+        { "name": "Fotografia", "tasks": 6, "rate": "50€/hr" }
+      ],
+      "share_title": "Comparte con clientes",
+      "share_desc": "Genera un enlace seguro o codigo QR. Solo las tareas y notas marcadas como visibles se mostraran al cliente.",
+      "features_title": "Gestion profesional de proyectos",
+      "feature_cards": [
+        { "title": "Tablero Kanban", "desc": "4 columnas: Por Hacer, Notas, Eventos y Hecho. Arrastra para reordenar tareas en cada columna." },
+        { "title": "Info de Cliente", "desc": "Almacena datos de contacto, nombre de empresa e historial de comunicacion en cada proyecto." },
+        { "title": "Control de Facturacion", "desc": "Tarifas por hora, presupuestos, horas estimadas y alertas de plazos — todo integrado." },
+        { "title": "Compartir Seguro", "desc": "Comparte progreso via enlace o QR. Controla exactamente que puede ver el cliente." }
+      ],
+      "statuses": ["Activo", "Pausado", "Completado", "Archivado"]
+    },
+    "calendar": {
+      "badge": "Funcion Principal",
+      "title": "Tu tiempo,\nvisualizado.",
+      "subtitle": "Vistas de mes, semana y dia con categorias, recurrencia, recordatorios e integracion con Google Calendar.",
+      "view_month": "Mes",
+      "view_week": "Semana",
+      "view_day": "Dia",
+      "mock_events": [
+        { "title": "Standup del equipo", "time": "9:00 — 9:30", "category": "work", "color": "#5E8BFF" },
+        { "title": "Almuerzo con Sara", "time": "12:30 — 13:30", "category": "food", "color": "#FF8C42" },
+        { "title": "Revision de diseno", "time": "14:00 — 15:00", "category": "work", "color": "#5E8BFF" },
+        { "title": "Sesion de gym", "time": "18:00 — 19:00", "category": "sports", "color": "#4CAF50" },
+        { "title": "Practica de guitarra", "time": "20:00 — 21:00", "category": "music", "color": "#A78BFA" }
+      ],
+      "categories_title": "6 categorias de eventos",
+      "categories": [
+        { "name": "General", "color": "#9E9E9E" },
+        { "name": "Musica", "color": "#A78BFA" },
+        { "name": "Comida", "color": "#FF8C42" },
+        { "name": "Deportes", "color": "#4CAF50" },
+        { "name": "Trabajo", "color": "#5E8BFF" },
+        { "name": "Personal", "color": "#F472B6" }
+      ],
+      "features_title": "Mas que un calendario",
+      "feature_cards": [
+        { "title": "Eventos Recurrentes", "desc": "Configura recurrencia diaria, semanal o mensual con fecha de fin. No recrees el mismo evento." },
+        { "title": "Recordatorios", "desc": "Recibe notificaciones antes de que empiecen los eventos. Personaliza el tiempo por evento." },
+        { "title": "Google Calendar", "desc": "Sincroniza tus eventos de Google Calendar. Ve todo en una vista unificada." },
+        { "title": "Ubicacion y Costos", "desc": "Agrega ubicacion y seguimiento de costos a cualquier evento. Sabe donde estar y cuanto cuesta." }
+      ],
+      "google_title": "Sincronizacion con Google Calendar",
+      "google_desc": "Importa todos tus eventos de Google Calendar. Ve trabajo, personal y calendarios compartidos en una linea de tiempo unificada."
+    },
+    "ai": {
+      "badge": "Funcion Pro",
+      "title": "IA que entiende\ntu trabajo.",
+      "subtitle": "Resumenes de reuniones, extraccion de entidades y propuestas de acciones. Con Ollama para total privacidad.",
+      "waveform_entities": [
+        { "label": "Juan", "type": "person" },
+        { "label": "15 Mayo", "type": "date" },
+        { "label": "Revision presupuesto", "type": "task" },
+        { "label": "Objetivos Q3", "type": "topic" }
+      ],
+      "proposals": [
+        { "type": "task", "title": "Crear tarea", "desc": "Revisar presupuesto Q3 con Juan" },
+        { "type": "event", "title": "Programar reunion", "desc": "Seguimiento el 15 de mayo a las 10am" },
+        { "type": "note", "title": "Guardar nota", "desc": "Resumen de reunion y decisiones clave" }
+      ],
+      "chat_title": "Velo en accion",
+      "chat_user_msg": "En que deberia enfocarme hoy?",
+      "chat_ai_sections": [
+        { "heading": "Prioridad Alta", "items": ["Revisar propuesta de presupuesto Q3 — fecha limite manana", "Responder email del cliente de Acme Corp"] },
+        { "heading": "Proximo", "items": ["Revision de diseno a las 2:00 PM", "Standup del equipo en 45 minutos"] },
+        { "heading": "Sugerido", "items": ["Terminar borrador del blog post (70% listo)", "Organizar notas de la lluvia de ideas de ayer"] }
+      ],
+      "chat_ai_summary": "Tienes 2 tareas urgentes y 2 reuniones hoy. Te recomiendo empezar con la propuesta de presupuesto.",
+      "chat_copy": "Copiar respuesta",
+      "privacy_title": "Tus datos no salen del dispositivo",
+      "privacy_desc": "La IA de Nooks funciona con Ollama en tu dispositivo. Ningun dato sale de tu telefono. Sin procesamiento en la nube. Privacidad total."
+    },
+    "beta": {
+      "badge": "Programa Beta — Acceso Anticipado",
+      "title_line1": "Da forma al futuro",
+      "title_line2": "de Nooks.",
+      "subtitle": "Nooks esta en desarrollo activo. Unete a la beta para acceder antes que nadie, ayudarnos a mejorar y dar forma a las funciones que mas necesitas.",
+      "sections": [
+        {
+          "title": "Notas y Diario",
+          "items": [
+            { "label": "Crear, editar, eliminar notas", "status": "ready" },
+            { "label": "Etiquetas, favoritos, importancia", "status": "ready" },
+            { "label": "Busqueda y filtros", "status": "ready" },
+            { "label": "Archivos adjuntos", "status": "ready" },
+            { "label": "Cifrado de extremo a extremo", "status": "ready" }
+          ]
+        },
+        {
+          "title": "Gestion de Tareas",
+          "items": [
+            { "label": "CRUD completo con prioridades", "status": "ready" },
+            { "label": "Fechas limite y recordatorios", "status": "ready" },
+            { "label": "Filtrar por estado y proyecto", "status": "ready" },
+            { "label": "Arrastrar para reordenar", "status": "ready" },
+            { "label": "Vincular a proyectos y eventos", "status": "ready" }
+          ]
+        },
+        {
+          "title": "Proyectos y Kanban",
+          "items": [
+            { "label": "CRUD de proyectos con estado", "status": "ready" },
+            { "label": "Vista de tablero Kanban", "status": "ready" },
+            { "label": "Info de cliente y facturacion", "status": "ready" },
+            { "label": "Plantillas de proyecto", "status": "beta" },
+            { "label": "Colaboracion en equipo", "status": "soon" }
+          ]
+        },
+        {
+          "title": "Calendario y Eventos",
+          "items": [
+            { "label": "Vistas de mes, semana y dia", "status": "ready" },
+            { "label": "Categorias y colores", "status": "ready" },
+            { "label": "Sincronizacion con Google Calendar", "status": "ready" },
+            { "label": "Eventos recurrentes", "status": "ready" },
+            { "label": "Ubicacion y seguimiento de costos", "status": "ready" }
+          ]
+        },
+        {
+          "title": "IA e Inteligencia",
+          "items": [
+            { "label": "Grabacion de reuniones", "status": "ready" },
+            { "label": "Resumen con IA", "status": "beta" },
+            { "label": "Extraccion de entidades", "status": "beta" },
+            { "label": "Propuestas de acciones", "status": "beta" },
+            { "label": "Sugerencias inteligentes", "status": "soon" }
+          ]
+        },
+        {
+          "title": "Plataforma y Seguridad",
+          "items": [
+            { "label": "iOS y Android", "status": "ready" },
+            { "label": "PIN y bloqueo biometrico", "status": "ready" },
+            { "label": "Google Sign-In", "status": "ready" },
+            { "label": "Apple Sign-In", "status": "soon" },
+            { "label": "App web", "status": "soon" }
+          ]
+        }
+      ],
+      "roadmap_title": "Hoja de ruta",
+      "roadmap": [
+        {
+          "phase": "Ahora",
+          "title": "MVP — Productividad esencial",
+          "items": [
+            "Notas, tareas, proyectos y calendario completamente funcionales",
+            "Seguimiento de tiempo con horas facturables",
+            "Dashboard personalizable con 15+ widgets",
+            "Seguridad con PIN, biometria y cifrado",
+            "Bilingue: ingles y espanol"
+          ]
+        },
+        {
+          "phase": "Siguiente",
+          "title": "Inteligencia y pulido",
+          "items": [
+            "Resumen de reuniones con IA (Ollama)",
+            "Propuestas de acciones inteligentes",
+            "Sincronizacion de configuracion con backend",
+            "Busqueda avanzada en todo el contenido",
+            "Optimizaciones de rendimiento"
+          ]
+        },
+        {
+          "phase": "Despues",
+          "title": "Crecimiento y plataforma",
+          "items": [
+            "Apple Sign-In",
+            "App web (Nooks-WebApp)",
+            "Colaboracion en equipo y compartir",
+            "Integracion con Stripe para planes Pro",
+            "Notificaciones por email",
+            "API publica para integraciones"
+          ]
+        }
+      ],
+      "cta_title": "Unete a la beta",
+      "cta_subtitle": "Se de los primeros en probar Nooks y ayuda a dar forma a su futuro. Gratis durante el periodo beta.",
+      "cta_button": "Acceso Anticipado"
+    }
   }
 }

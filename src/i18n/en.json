@@ -1,7 +1,23 @@
 {
   "nav": {
-    "features": "Features",
-    "pricing": "Pricing",
+    "product": "Product",
+    "core_tools": "Core Tools",
+    "planning": "Planning",
+    "intelligence": "Intelligence",
+    "more": "Explore",
+    "notes": "Notes",
+    "notes_desc": "Capture ideas with rich text and tags",
+    "tasks": "Tasks",
+    "tasks_desc": "Manage priorities and deadlines",
+    "projects": "Projects",
+    "projects_desc": "Kanban boards and client tracking",
+    "calendar": "Calendar",
+    "calendar_desc": "Events, meetings, and reminders",
+    "ai": "AI Assistant",
+    "ai_desc": "Smart suggestions and meeting summaries",
+    "beta": "Beta Program",
+    "beta_desc": "What's included in the MVP",
+    "pricing_link": "Pricing",
     "faq": "FAQ",
     "download": "Download"
   },
@@ -80,30 +96,12 @@
     "title": "Frequently asked questions",
     "subtitle": "Everything you need to know about Nooks",
     "items": [
-      {
-        "q": "Is Nooks really free?",
-        "a": "Yes. The free plan includes up to 50 notes per month, 20 events, 1 project, and end-to-end encryption. No credit card required to sign up."
-      },
-      {
-        "q": "How does the AI assistant work?",
-        "a": "The AI assistant is available on the Pro plan. It helps you organize notes, suggests task priorities, and can assist with writing. It runs via Ollama, so your data stays private."
-      },
-      {
-        "q": "Can I use Nooks offline?",
-        "a": "Absolutely. Nooks works fully offline. All your notes, tasks, and events are stored locally and sync automatically when you reconnect."
-      },
-      {
-        "q": "Is my data secure?",
-        "a": "Security is our priority. All data is encrypted end-to-end, and we never sell or share your personal information with third parties."
-      },
-      {
-        "q": "Can I switch from Free to Pro at any time?",
-        "a": "Yes, you can upgrade or downgrade at any time. When you upgrade, you get immediate access to all Pro features. If you downgrade, you keep Pro features until the end of your billing period."
-      },
-      {
-        "q": "What platforms is Nooks available on?",
-        "a": "Nooks is currently available on iOS and Android. A web version is coming soon."
-      }
+      { "q": "Is Nooks really free?", "a": "Yes. The free plan includes up to 50 notes per month, 20 events, 1 project, and end-to-end encryption. No credit card required." },
+      { "q": "How does the AI assistant work?", "a": "The AI assistant helps you organize notes, suggests task priorities, summarizes meetings, and extracts action items. It runs privately via Ollama." },
+      { "q": "Can I use Nooks offline?", "a": "Absolutely. Nooks works fully offline. All your data is stored locally and syncs automatically when you reconnect." },
+      { "q": "Is my data secure?", "a": "Security is our priority. All data is encrypted end-to-end. We never sell or share your personal information." },
+      { "q": "Can I switch plans at any time?", "a": "Yes. Upgrade or downgrade whenever you want. Pro features are available immediately on upgrade." },
+      { "q": "What platforms is Nooks available on?", "a": "Nooks is available on iOS and Android. A web version is coming soon." }
     ]
   },
   "cta": {
@@ -118,5 +116,269 @@
     "contact": "Contact",
     "made_with": "Made with love",
     "rights": "All rights reserved."
+  },
+  "feature_pages": {
+    "back_home": "Back to home",
+    "cta_title": "Ready to try it?",
+    "cta_desc": "Download Nooks and start organizing your work today.",
+    "cta_button": "Download Nooks"
+  },
+  "pages": {
+    "notes": {
+      "badge": "Core Feature",
+      "title": "Notes that work\nfor you.",
+      "subtitle": "Capture ideas instantly with rich text, tags, bookmarks, and powerful search. Your thoughts, organized and always accessible.",
+      "editor_tag": "Personal",
+      "feature_cards": [
+        { "title": "Rich Text Editor", "desc": "Format your thoughts with bold, italic, lists, and more. Word count and reading time included." },
+        { "title": "Tags & Bookmarks", "desc": "Organize with custom tags. Mark notes as important or bookmark them for quick access." },
+        { "title": "Powerful Search", "desc": "Find anything by title, content, or tags. Filter by date range to narrow results instantly." }
+      ]
+    },
+    "tasks": {
+      "badge": "Core Feature",
+      "title": "Tasks, mastered.",
+      "subtitle": "From quick to-dos to complex project workflows. Priority levels, due dates, smart filters, and time tracking keep you in control.",
+      "filters": ["All", "Today", "Pending", "Completed"],
+      "mock_tasks": [
+        { "title": "Review Q3 budget proposal", "priority": "high", "due": "Today", "project": "Acme Corp", "time": "1h 25m", "completed": false },
+        { "title": "Design homepage mockups", "priority": "high", "due": "Tomorrow", "project": "Website Redesign", "time": "3h 10m", "completed": false },
+        { "title": "Write API documentation", "priority": "medium", "due": "Wed", "project": "", "time": "45m", "completed": false },
+        { "title": "Update dependencies", "priority": "low", "due": "Fri", "project": "Backend", "time": "", "completed": false },
+        { "title": "Send weekly report", "priority": "medium", "due": "Thu", "project": "", "time": "20m", "completed": false },
+        { "title": "Setup CI/CD pipeline", "priority": "low", "due": "", "project": "Backend", "time": "", "completed": true },
+        { "title": "Logo design final version", "priority": "high", "due": "", "project": "Acme Corp", "time": "5h 30m", "completed": true }
+      ],
+      "detail_title": "Task Detail",
+      "detail_desc": "Everything about a task in one view. Priority, due date, project, linked events, time tracking, and client visibility — all at a glance.",
+      "detail_fields": ["Priority level", "Due date with smart formatting", "Linked project", "Associated events", "Time tracked", "Client visibility toggle"],
+      "timer_title": "Built-in Time Tracking",
+      "timer_desc": "Start and stop timers directly from any task. Track billable hours per project and see exactly where your time goes.",
+      "features_title": "Built for real workflows",
+      "feature_cards": [
+        { "title": "Smart Filters", "desc": "Instantly filter by All, Today, Pending, or Completed. Find any task in seconds." },
+        { "title": "Drag to Reorder", "desc": "Reorder tasks with drag and drop. Your custom order is saved and synced across devices." },
+        { "title": "Project Linking", "desc": "Connect tasks to projects and events. Everything stays in context, never isolated." },
+        { "title": "Time Tracking", "desc": "One-tap timer on every task. Track hours, see totals, and monitor billable time per project." }
+      ],
+      "connected_title": "Connected to everything",
+      "connected_desc": "Link tasks to projects, associate them with calendar events, and track completion across your entire workflow."
+    },
+    "projects": {
+      "badge": "Core Feature",
+      "title": "Projects,\nyour way.",
+      "subtitle": "Kanban boards, client management, billing, templates, sharing, and status tracking. Everything to manage professional work from start to finish.",
+      "mock_projects": [
+        { "name": "Website Redesign", "color": "#5E8BFF", "status": "active", "client": "Acme Corp", "tasks": 12, "notes": 5, "events": 3, "deadline": "Apr 28", "deadlineDays": 22 },
+        { "name": "Mobile App MVP", "color": "#C9FD4D", "status": "active", "client": "StartupX", "tasks": 24, "notes": 8, "events": 6, "deadline": "May 15", "deadlineDays": 39 },
+        { "name": "Brand Identity", "color": "#FF8C42", "status": "paused", "client": "Bloom Studio", "tasks": 7, "notes": 3, "events": 1, "deadline": "", "deadlineDays": 0 },
+        { "name": "API Integration", "color": "#A78BFA", "status": "completed", "client": "", "tasks": 18, "notes": 2, "events": 4, "deadline": "", "deadlineDays": 0 }
+      ],
+      "kanban_tabs": ["To Do", "Notes", "Events", "Done"],
+      "kanban_tasks": [
+        { "title": "Design homepage hero", "priority": "high", "due": "Today" },
+        { "title": "Write API documentation", "priority": "medium", "due": "Wed" },
+        { "title": "Setup analytics tracking", "priority": "low", "due": "Fri" },
+        { "title": "Create onboarding flow", "priority": "medium", "due": "" }
+      ],
+      "kanban_notes": [
+        { "title": "Meeting notes — Apr 3", "tags": 2 },
+        { "title": "Design system tokens", "tags": 1 },
+        { "title": "Client feedback round 2", "tags": 3 }
+      ],
+      "detail_title": "Everything in one view",
+      "detail_desc": "Open any project and see the full picture: status, client, billing, deadlines, and all linked content. Kanban board included.",
+      "client_title": "Client management",
+      "client_desc": "Store name, email, phone, and company. Share project progress with clients through a secure link and QR code.",
+      "billing_title": "Billing & budgets",
+      "billing_desc": "Set hourly rates, estimated hours, and budgets per project. Track deadlines and monitor spend in real time.",
+      "templates_title": "Start faster with templates",
+      "templates": [
+        { "name": "Web Development", "tasks": 7, "rate": "$45/hr" },
+        { "name": "Graphic Design", "tasks": 6, "rate": "$35/hr" },
+        { "name": "Consulting", "tasks": 5, "rate": "$60/hr" },
+        { "name": "Digital Marketing", "tasks": 7, "rate": "$40/hr" },
+        { "name": "Translation", "tasks": 5, "rate": "$30/hr" },
+        { "name": "Photography", "tasks": 6, "rate": "$50/hr" }
+      ],
+      "share_title": "Share with clients",
+      "share_desc": "Generate a secure link or QR code. Only tasks and notes marked as visible will be shown to the client.",
+      "features_title": "Professional project management",
+      "feature_cards": [
+        { "title": "Kanban Board", "desc": "4 columns: To Do, Notes, Events, and Done. Drag to reorder tasks within each column." },
+        { "title": "Client Info", "desc": "Store contact details, company name, and communication history in every project." },
+        { "title": "Billing Tracking", "desc": "Hourly rates, budgets, estimated hours, and deadline alerts — all built in." },
+        { "title": "Secure Sharing", "desc": "Share project progress via link or QR code. Control exactly what clients can see." }
+      ],
+      "statuses": ["Active", "Paused", "Completed", "Archived"]
+    },
+    "calendar": {
+      "badge": "Core Feature",
+      "title": "Your time,\nvisualized.",
+      "subtitle": "Month, week, and day views with event categories, recurrence, reminders, and Google Calendar integration.",
+      "view_month": "Month",
+      "view_week": "Week",
+      "view_day": "Day",
+      "mock_events": [
+        { "title": "Team Standup", "time": "9:00 — 9:30", "category": "work", "color": "#5E8BFF" },
+        { "title": "Lunch with Sarah", "time": "12:30 — 13:30", "category": "food", "color": "#FF8C42" },
+        { "title": "Design Review", "time": "14:00 — 15:00", "category": "work", "color": "#5E8BFF" },
+        { "title": "Gym Session", "time": "18:00 — 19:00", "category": "sports", "color": "#4CAF50" },
+        { "title": "Guitar Practice", "time": "20:00 — 21:00", "category": "music", "color": "#A78BFA" }
+      ],
+      "categories_title": "6 event categories",
+      "categories": [
+        { "name": "General", "color": "#9E9E9E" },
+        { "name": "Music", "color": "#A78BFA" },
+        { "name": "Food", "color": "#FF8C42" },
+        { "name": "Sports", "color": "#4CAF50" },
+        { "name": "Work", "color": "#5E8BFF" },
+        { "name": "Personal", "color": "#F472B6" }
+      ],
+      "features_title": "More than a calendar",
+      "feature_cards": [
+        { "title": "Recurring Events", "desc": "Set daily, weekly, or monthly recurrence with an end date. Never re-create the same event." },
+        { "title": "Smart Reminders", "desc": "Get notified before events start. Customize reminder timing per event." },
+        { "title": "Google Calendar", "desc": "Sync your Google Calendar events seamlessly. See everything in one unified view." },
+        { "title": "Location & Cost", "desc": "Add location and cost tracking to any event. Know where you need to be and what it costs." }
+      ],
+      "google_title": "Google Calendar sync",
+      "google_desc": "Import all your Google Calendar events. See work, personal, and shared calendars in one unified timeline."
+    },
+    "ai": {
+      "badge": "Pro Feature",
+      "title": "AI that understands\nyour work.",
+      "subtitle": "Meeting summaries, entity extraction, and smart action proposals. Powered by Ollama for complete privacy.",
+      "waveform_entities": [
+        { "label": "John", "type": "person" },
+        { "label": "May 15", "type": "date" },
+        { "label": "Budget review", "type": "task" },
+        { "label": "Q3 Goals", "type": "topic" }
+      ],
+      "proposals": [
+        { "type": "task", "title": "Create task", "desc": "Review Q3 budget with John" },
+        { "type": "event", "title": "Schedule meeting", "desc": "Follow-up on May 15 at 10am" },
+        { "type": "note", "title": "Save note", "desc": "Meeting summary and key decisions" }
+      ],
+      "chat_title": "See it in action",
+      "chat_user_msg": "What should I focus on today?",
+      "chat_ai_sections": [
+        { "heading": "High Priority", "items": ["Review Q3 budget proposal — deadline tomorrow", "Reply to client email from Acme Corp"] },
+        { "heading": "Upcoming", "items": ["Design review at 2:00 PM", "Team standup in 45 minutes"] },
+        { "heading": "Suggested", "items": ["Finish draft for blog post (70% done)", "Organize notes from yesterday's brainstorm"] }
+      ],
+      "chat_ai_summary": "You have 2 urgent tasks and 2 meetings today. I'd recommend starting with the budget proposal.",
+      "chat_copy": "Copy response",
+      "privacy_title": "Your data stays local",
+      "privacy_desc": "Nooks AI runs through Ollama on your device. No data leaves your phone. No cloud processing. Complete privacy by design."
+    },
+    "beta": {
+      "badge": "Beta Program — Early Access",
+      "title_line1": "Shape the future",
+      "title_line2": "of Nooks.",
+      "subtitle": "Nooks is in active development. Join the beta to get early access, help us improve, and shape the features you need most.",
+      "sections": [
+        {
+          "title": "Notes & Diary",
+          "items": [
+            { "label": "Create, edit, delete notes", "status": "ready" },
+            { "label": "Tags, bookmarks, importance", "status": "ready" },
+            { "label": "Search and filters", "status": "ready" },
+            { "label": "File attachments", "status": "ready" },
+            { "label": "End-to-end encryption", "status": "ready" }
+          ]
+        },
+        {
+          "title": "Task Management",
+          "items": [
+            { "label": "Full CRUD with priorities", "status": "ready" },
+            { "label": "Due dates and reminders", "status": "ready" },
+            { "label": "Filter by status and project", "status": "ready" },
+            { "label": "Drag-to-reorder", "status": "ready" },
+            { "label": "Link to projects and events", "status": "ready" }
+          ]
+        },
+        {
+          "title": "Projects & Kanban",
+          "items": [
+            { "label": "Project CRUD with status", "status": "ready" },
+            { "label": "Kanban board view", "status": "ready" },
+            { "label": "Client and billing info", "status": "ready" },
+            { "label": "Project templates", "status": "beta" },
+            { "label": "Team collaboration", "status": "soon" }
+          ]
+        },
+        {
+          "title": "Calendar & Events",
+          "items": [
+            { "label": "Month, week, day views", "status": "ready" },
+            { "label": "Event categories and colors", "status": "ready" },
+            { "label": "Google Calendar sync", "status": "ready" },
+            { "label": "Recurring events", "status": "ready" },
+            { "label": "Location and cost tracking", "status": "ready" }
+          ]
+        },
+        {
+          "title": "AI & Intelligence",
+          "items": [
+            { "label": "Meeting recording", "status": "ready" },
+            { "label": "AI transcription summary", "status": "beta" },
+            { "label": "Entity extraction", "status": "beta" },
+            { "label": "Action proposals", "status": "beta" },
+            { "label": "Smart suggestions", "status": "soon" }
+          ]
+        },
+        {
+          "title": "Platform & Security",
+          "items": [
+            { "label": "iOS and Android", "status": "ready" },
+            { "label": "PIN and biometric lock", "status": "ready" },
+            { "label": "Google Sign-In", "status": "ready" },
+            { "label": "Apple Sign-In", "status": "soon" },
+            { "label": "Web app", "status": "soon" }
+          ]
+        }
+      ],
+      "roadmap_title": "Roadmap",
+      "roadmap": [
+        {
+          "phase": "Now",
+          "title": "MVP — Core productivity",
+          "items": [
+            "Notes, tasks, projects, and calendar fully functional",
+            "Time tracking with billable hours",
+            "Customizable home dashboard with 15+ widgets",
+            "PIN, biometric, and encryption security",
+            "Bilingual: English and Spanish"
+          ]
+        },
+        {
+          "phase": "Next",
+          "title": "Intelligence & polish",
+          "items": [
+            "AI meeting summarization (Ollama)",
+            "Smart action proposals from meetings",
+            "Settings sync with backend",
+            "Advanced search across all content",
+            "Performance optimizations"
+          ]
+        },
+        {
+          "phase": "Later",
+          "title": "Growth & platform",
+          "items": [
+            "Apple Sign-In",
+            "Web app (Nooks-WebApp)",
+            "Team collaboration and sharing",
+            "Stripe integration for Pro plans",
+            "Email notifications",
+            "Public API for integrations"
+          ]
+        }
+      ],
+      "cta_title": "Join the beta",
+      "cta_subtitle": "Be among the first to try Nooks and help shape its future. Free during the beta period.",
+      "cta_button": "Get Early Access"
+    }
   }
 }
