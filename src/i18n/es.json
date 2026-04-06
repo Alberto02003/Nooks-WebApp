@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "features": "Funciones",
+    "pricing": "Precios",
+    "faq": "FAQ",
+    "download": "Descargar"
+  },
+  "hero": {
+    "badge": "Tu companero de productividad",
+    "title_line1": "Organiza tu trabajo.",
+    "title_line2": "Todo en un solo lugar.",
+    "subtitle": "Notas, tareas, calendario y proyectos — disenado para mantenerte enfocado y productivo. Sin ruido, solo lo que importa.",
+    "cta_download": "Descargar App",
+    "cta_learn": "Saber Mas"
+  },
+  "stats": {
+    "tools": "Herramientas integradas",
+    "encrypted": "Cifrado",
+    "available": "Siempre disponible",
+    "free_start": "Para empezar"
+  },
+  "features": {
+    "title": "Todo lo que necesitas",
+    "subtitle": "Herramientas potentes para mantener tu vida organizada",
+    "notes_title": "Notas Rapidas",
+    "notes_desc": "Captura ideas al instante con texto enriquecido, etiquetas y favoritos. Busca, filtra y organiza — no pierdas ninguna idea.",
+    "tasks_title": "Gestion de Tareas",
+    "tasks_desc": "Organiza tareas por prioridad, fecha limite y proyectos. Filtros inteligentes, reordenar y seguimiento de progreso.",
+    "calendar_title": "Calendario Integrado",
+    "calendar_desc": "Eventos y reuniones en una vista unificada. Ve tu dia, semana o mes de un vistazo — no te pierdas ninguna fecha importante.",
+    "projects_title": "Proyectos",
+    "projects_desc": "Agrupa tus tareas y notas en proyectos. Sigue el progreso, establece plazos y manten todo en contexto."
+  },
+  "cards": {
+    "security_title": "Seguro por defecto",
+    "security_desc": "Tus datos estan cifrados de extremo a extremo. Nunca vendemos tu informacion. Tus notas, tareas y eventos son privados — siempre.",
+    "offline_title": "Funciona sin conexion",
+    "offline_desc": "Sin internet? Sin problema. Nooks funciona sin conexion y sincroniza automaticamente cuando vuelves a estar en linea.",
+    "ai_title": "Asistente de IA",
+    "ai_desc": "Sugerencias inteligentes, categorizacion automatica y ayuda con la escritura. Disponible con el plan Pro."
+  },
+  "howItWorks": {
+    "title": "Como funciona",
+    "subtitle": "Empieza en tres simples pasos",
+    "step1_title": "Descarga y Registrate",
+    "step1_desc": "Descarga la app y crea tu cuenta gratuita en segundos. Sin tarjeta de credito.",
+    "step2_title": "Organiza tu Dia",
+    "step2_desc": "Agrega notas, crea tareas y programa eventos — todo desde una interfaz disenada con cuidado.",
+    "step3_title": "Se Productivo",
+    "step3_desc": "Sigue tu progreso, cumple tus metas y construye mejores habitos dia tras dia."
+  },
+  "pricing": {
+    "title": "Precios simples",
+    "subtitle": "Empieza gratis, mejora cuando necesites mas",
+    "free": "Gratis",
+    "pro": "Pro",
+    "per_month": "/mes",
+    "current_plan": "Comenzar",
+    "get_pro": "Obtener Pro",
+    "free_features": [
+      "Hasta 50 notas por mes",
+      "20 eventos por mes",
+      "Gestion basica de tareas",
+      "1 proyecto",
+      "Archivos de 5 MB",
+      "Cifrado de extremo a extremo"
+    ],
+    "pro_features": [
+      "Notas y eventos ilimitados",
+      "Proyectos ilimitados",
+      "Asistente de IA",
+      "Respaldo en la nube",
+      "Exportar datos",
+      "Temas personalizados",
+      "Estadisticas avanzadas",
+      "Soporte prioritario"
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Nooks",
+    "items": [
+      {
+        "q": "Nooks es realmente gratis?",
+        "a": "Si. El plan gratuito incluye hasta 50 notas al mes, 20 eventos, 1 proyecto y cifrado de extremo a extremo. No se necesita tarjeta de credito para registrarse."
+      },
+      {
+        "q": "Como funciona el asistente de IA?",
+        "a": "El asistente de IA esta disponible en el plan Pro. Te ayuda a organizar notas, sugiere prioridades de tareas y puede asistirte con la escritura. Funciona con Ollama, asi que tus datos se mantienen privados."
+      },
+      {
+        "q": "Puedo usar Nooks sin conexion?",
+        "a": "Por supuesto. Nooks funciona completamente sin conexion. Todas tus notas, tareas y eventos se almacenan localmente y se sincronizan automaticamente al reconectarte."
+      },
+      {
+        "q": "Mis datos estan seguros?",
+        "a": "La seguridad es nuestra prioridad. Todos los datos estan cifrados de extremo a extremo y nunca vendemos ni compartimos tu informacion personal con terceros."
+      },
+      {
+        "q": "Puedo cambiar de Free a Pro en cualquier momento?",
+        "a": "Si, puedes mejorar o cambiar de plan en cualquier momento. Al mejorar, obtienes acceso inmediato a todas las funciones Pro. Si bajas de plan, mantienes las funciones Pro hasta el final de tu periodo de facturacion."
+      },
+      {
+        "q": "En que plataformas esta disponible Nooks?",
+        "a": "Nooks esta disponible actualmente en iOS y Android. Una version web esta en camino."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Listo para organizarte?",
+    "subtitle": "Unete a miles de personas que usan Nooks para mantenerse al dia.",
+    "button": "Descargar Nooks"
+  },
+  "footer": {
+    "tagline": "Tu organizador de trabajo personal",
+    "privacy": "Politica de Privacidad",
+    "terms": "Terminos de Servicio",
+    "contact": "Contacto",
+    "made_with": "Hecho con amor",
+    "rights": "Todos los derechos reservados."
+  }
+}

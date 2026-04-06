@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "download": "Download"
+  },
+  "hero": {
+    "badge": "Your productivity companion",
+    "title_line1": "Organize your work.",
+    "title_line2": "All in one place.",
+    "subtitle": "Notes, tasks, calendar, and projects — beautifully designed to keep you focused and productive. No noise, just what matters.",
+    "cta_download": "Download App",
+    "cta_learn": "Learn More"
+  },
+  "stats": {
+    "tools": "Integrated tools",
+    "encrypted": "Encrypted",
+    "available": "Always available",
+    "free_start": "To get started"
+  },
+  "features": {
+    "title": "Everything you need",
+    "subtitle": "Powerful tools designed to keep your life organized",
+    "notes_title": "Quick Notes",
+    "notes_desc": "Capture ideas instantly with rich text, tags, and bookmarks. Search, filter, and organize — never lose a thought again.",
+    "tasks_title": "Task Management",
+    "tasks_desc": "Organize tasks by priority, due date, and projects. Smart filters, drag-to-reorder, and completion tracking keep you on top of everything.",
+    "calendar_title": "Integrated Calendar",
+    "calendar_desc": "Events and meetings in one unified view. See your day, week, or month at a glance — never miss an important date.",
+    "projects_title": "Projects",
+    "projects_desc": "Group your tasks and notes into projects. Track progress, set deadlines, and keep everything in context."
+  },
+  "cards": {
+    "security_title": "Secure by default",
+    "security_desc": "Your data is encrypted end-to-end. We never sell your information. Your notes, tasks, and events stay private — always.",
+    "offline_title": "Works offline",
+    "offline_desc": "No internet? No problem. Nooks works seamlessly offline and syncs automatically when you're back online.",
+    "ai_title": "AI assistant",
+    "ai_desc": "Get smart suggestions, auto-categorization, and writing help powered by AI. Available with the Pro plan."
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "subtitle": "Get started in three simple steps",
+    "step1_title": "Download & Sign Up",
+    "step1_desc": "Get the app and create your free account in seconds. No credit card required.",
+    "step2_title": "Organize Your Day",
+    "step2_desc": "Add notes, create tasks, and schedule events — all from one beautifully designed interface.",
+    "step3_title": "Stay Productive",
+    "step3_desc": "Track your progress, hit your goals, and build better habits day after day."
+  },
+  "pricing": {
+    "title": "Simple pricing",
+    "subtitle": "Start free, upgrade when you need more",
+    "free": "Free",
+    "pro": "Pro",
+    "per_month": "/month",
+    "current_plan": "Get Started",
+    "get_pro": "Get Pro",
+    "free_features": [
+      "Up to 50 notes per month",
+      "20 events per month",
+      "Basic task management",
+      "1 project",
+      "5 MB attachments",
+      "End-to-end encryption"
+    ],
+    "pro_features": [
+      "Unlimited notes & events",
+      "Unlimited projects",
+      "AI assistant",
+      "Cloud backup",
+      "Export data",
+      "Custom themes",
+      "Advanced statistics",
+      "Priority support"
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Everything you need to know about Nooks",
+    "items": [
+      {
+        "q": "Is Nooks really free?",
+        "a": "Yes. The free plan includes up to 50 notes per month, 20 events, 1 project, and end-to-end encryption. No credit card required to sign up."
+      },
+      {
+        "q": "How does the AI assistant work?",
+        "a": "The AI assistant is available on the Pro plan. It helps you organize notes, suggests task priorities, and can assist with writing. It runs via Ollama, so your data stays private."
+      },
+      {
+        "q": "Can I use Nooks offline?",
+        "a": "Absolutely. Nooks works fully offline. All your notes, tasks, and events are stored locally and sync automatically when you reconnect."
+      },
+      {
+        "q": "Is my data secure?",
+        "a": "Security is our priority. All data is encrypted end-to-end, and we never sell or share your personal information with third parties."
+      },
+      {
+        "q": "Can I switch from Free to Pro at any time?",
+        "a": "Yes, you can upgrade or downgrade at any time. When you upgrade, you get immediate access to all Pro features. If you downgrade, you keep Pro features until the end of your billing period."
+      },
+      {
+        "q": "What platforms is Nooks available on?",
+        "a": "Nooks is currently available on iOS and Android. A web version is coming soon."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to get organized?",
+    "subtitle": "Join thousands of people who use Nooks to stay on top of their day.",
+    "button": "Download Nooks"
+  },
+  "footer": {
+    "tagline": "Your personal work organizer",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "made_with": "Made with love",
+    "rights": "All rights reserved."
+  }
+}
