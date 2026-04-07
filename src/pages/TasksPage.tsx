@@ -403,9 +403,9 @@ export default function TasksPage() {
           <h2 className="text-3xl md:text-5xl font-bold mb-5">{t('feature_pages.cta_title')}</h2>
           <p className="text-text-secondary text-lg mb-10">{t('feature_pages.cta_desc')}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#" className="inline-flex items-center justify-center px-10 py-4 rounded-full bg-lime text-bg-primary font-semibold hover:-translate-y-0.5 transition-all duration-200">
+            <Link to="/beta" className="inline-flex items-center justify-center px-10 py-4 rounded-full bg-lime text-bg-primary font-semibold hover:-translate-y-0.5 transition-all duration-200">
               {t('feature_pages.cta_button')}
-            </a>
+            </Link>
             <Link to="/" className="inline-flex items-center justify-center px-10 py-4 rounded-full border border-white/10 text-white font-medium hover:border-white/25 transition-all duration-200">
               {t('feature_pages.back_home')}
             </Link>

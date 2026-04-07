@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -47,12 +48,12 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.5 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <a
-            href="#"
+          <Link
+            to="/beta"
             className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-lime text-bg-primary font-semibold text-sm hover:-translate-y-0.5 hover:shadow-lg hover:shadow-lime/20 transition-all duration-200"
           >
             {t('hero.cta_download')}
-          </a>
+          </Link>
           <a
             href="#features"
             className="inline-flex items-center justify-center px-8 py-4 rounded-full border border-white/10 text-white font-medium text-sm hover:border-white/25 hover:-translate-y-0.5 transition-all duration-200"

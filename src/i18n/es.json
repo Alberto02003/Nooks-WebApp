@@ -15,11 +15,15 @@
     "calendar_desc": "Eventos, reuniones y recordatorios",
     "ai": "Asistente IA",
     "ai_desc": "Sugerencias y resumenes de reuniones",
+    "ollama": "Ollama",
+    "ollama_desc": "IA local, privada e ilimitada",
     "beta": "Programa Beta",
     "beta_desc": "Que incluye el MVP",
     "pricing_link": "Precios",
     "faq": "FAQ",
-    "download": "Descargar"
+    "about": "Sobre nosotros",
+    "login": "Iniciar sesión",
+    "register": "Registrarse"
   },
   "hero": {
     "badge": "Tu companero de productividad",
@@ -68,28 +72,148 @@
   "pricing": {
     "title": "Precios simples",
     "subtitle": "Empieza gratis, mejora cuando necesites mas",
-    "free": "Gratis",
-    "pro": "Pro",
     "per_month": "/mes",
     "current_plan": "Comenzar",
-    "get_pro": "Obtener Pro",
-    "free_features": [
-      "Hasta 50 notas por mes",
-      "20 eventos por mes",
-      "Gestion basica de tareas",
-      "1 proyecto",
-      "Archivos de 5 MB",
-      "Cifrado de extremo a extremo"
+    "popular": "Popular",
+    "best_value": "Mejor valor",
+    "see_all_plans": "Ver todos los planes",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "price": "0",
+        "desc": "El freelancer que empieza o quiere probar Nooks sin compromiso.",
+        "cta": "Comenzar gratis",
+        "features": [
+          "App movil",
+          "2 proyectos activos",
+          "3 plantillas basicas",
+          "Timer basico",
+          "2 reuniones IA/mes",
+          "10 cloud queries/mes",
+          "Marketplace completo"
+        ]
+      },
+      "free_web": {
+        "name": "Free + Web",
+        "price": "3",
+        "desc": "El freelancer que trabaja desde escritorio pero no necesita features avanzadas.",
+        "cta": "Obtener Free + Web",
+        "features": [
+          "Todo en Free",
+          "Web app incluida",
+          "5 proyectos activos",
+          "Todas las plantillas",
+          "Billable / Non-billable",
+          "Reportes semanales",
+          "3 facturas/mes",
+          "5 reuniones IA/mes",
+          "25 cloud queries/mes"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "6",
+        "desc": "El freelancer activo que necesita gestionar mas proyectos y facturar con datos fiscales completos.",
+        "cta": "Obtener Pro",
+        "features": [
+          "Todo en Free + Web",
+          "10 proyectos activos",
+          "5 facturas/mes",
+          "Perfil fiscal completo",
+          "10 reuniones IA/mes",
+          "50 cloud queries/mes",
+          "5 proyectos compartidos"
+        ]
+      },
+      "business": {
+        "name": "Business",
+        "price": "14.99",
+        "desc": "El freelancer consolidado o pequena agencia que quiere la experiencia completa sin limites.",
+        "cta": "Obtener Business",
+        "features": [
+          "Todo en Pro",
+          "Proyectos ilimitados",
+          "Facturas ilimitadas",
+          "PDF con tu logo",
+          "IA completa e ilimitada",
+          "Exportar reportes PDF/CSV",
+          "Promocion en marketplace incluida"
+        ]
+      }
+    },
+    "page_title": "El plan perfecto\npara tu trabajo.",
+    "page_subtitle": "Nooks crece contigo. Empieza gratis, mejora cuando lo necesites. Sin contratos, sin sorpresas — precios claros y transparentes.",
+    "beta_banner": "Durante la beta, todas las funciones estan desbloqueadas sin coste.",
+    "upgrade_title": "Crece a tu ritmo",
+    "upgrade_subtitle": "Cada plan esta disenado para acompanarte en una etapa diferente de tu carrera como freelancer.",
+    "upgrades": [
+      {
+        "from": "Free",
+        "to": "Free + Web",
+        "price": "+3 EUR",
+        "motivation": "Quiero usar Nooks desde el ordenador",
+        "gate": "Acceso a la web app",
+        "bonus": "5 proyectos, 3 facturas, billable tracking, reportes semanales"
+      },
+      {
+        "from": "Free + Web",
+        "to": "Pro",
+        "price": "+3 EUR",
+        "motivation": "Necesito facturar con datos fiscales completos",
+        "gate": "Perfil fiscal completo, 10 proyectos, 5 facturas",
+        "bonus": "10 reuniones IA, 50 cloud queries, 5 proyectos compartidos"
+      },
+      {
+        "from": "Pro",
+        "to": "Business",
+        "price": "+9 EUR",
+        "motivation": "Quiero la experiencia completa sin limites",
+        "gate": "Todo ilimitado + exportar reportes + logo en facturas",
+        "bonus": "IA completa (informes, emails, productividad), promocion incluida"
+      }
     ],
-    "pro_features": [
-      "Notas y eventos ilimitados",
-      "Proyectos ilimitados",
-      "Asistente de IA",
-      "Respaldo en la nube",
-      "Exportar datos",
-      "Temas personalizados",
-      "Estadisticas avanzadas",
-      "Soporte prioritario"
+    "ollama_title": "Ollama: IA ilimitada y gratuita",
+    "ollama_desc": "Nooks incluye un repositorio publico con configuraciones optimizadas para Ollama. Instala los modelos recomendados y tendras IA ilimitada sin coste — en cualquier plan. El motor es gratis; las funcionalidades dependen del plan.",
+    "addon_title": "Add-on: Promocion en Marketplace",
+    "addon_price": "0.99 EUR/mes",
+    "addon_desc": "Mayor visibilidad en el algoritmo de busqueda de freelancers. Disponible para cualquier plan con perfil publico activo. Incluida en Business.",
+    "comparison_title": "Compara todos los planes en detalle",
+    "comparison_subtitle": "Encuentra el plan perfecto para tu forma de trabajar",
+    "categories": {
+      "platform": "Plataforma",
+      "projects": "Proyectos",
+      "time_tracking": "Time Tracking",
+      "billing": "Facturacion",
+      "ai_features": "IA (funcionalidades)",
+      "ai_engine": "IA (motor)",
+      "marketplace": "Marketplace",
+      "addon": "Add-on"
+    },
+    "comparison": [
+      { "category": "platform", "feature": "App movil", "free": "Si", "free_web": "Si", "pro": "Si", "business": "Si" },
+      { "category": "platform", "feature": "Web app", "free": "No", "free_web": "Si", "pro": "Si", "business": "Si" },
+      { "category": "projects", "feature": "Proyectos activos", "free": "2", "free_web": "5", "pro": "10", "business": "Ilimitados" },
+      { "category": "projects", "feature": "Plantillas de proyecto", "free": "3 basicas", "free_web": "Todas", "pro": "Todas", "business": "Todas" },
+      { "category": "projects", "feature": "Proyecto compartido (link/QR)", "free": "1", "free_web": "3", "pro": "5", "business": "Ilimitados" },
+      { "category": "time_tracking", "feature": "Timer basico", "free": "Si", "free_web": "Si", "pro": "Si", "business": "Si" },
+      { "category": "time_tracking", "feature": "Billable / Non-billable", "free": "No", "free_web": "Si", "pro": "Si", "business": "Si" },
+      { "category": "time_tracking", "feature": "Reportes por proyecto", "free": "No", "free_web": "Semanal", "pro": "Semanal", "business": "Completos" },
+      { "category": "time_tracking", "feature": "Exportar reportes (PDF/CSV)", "free": "No", "free_web": "No", "pro": "No", "business": "Si" },
+      { "category": "billing", "feature": "Facturas/mes", "free": "0", "free_web": "3", "pro": "5", "business": "Ilimitadas" },
+      { "category": "billing", "feature": "PDF con tu logo", "free": "No", "free_web": "No", "pro": "No", "business": "Si" },
+      { "category": "billing", "feature": "Perfil fiscal completo", "free": "No", "free_web": "Basico", "pro": "Completo", "business": "Completo" },
+      { "category": "ai_features", "feature": "Procesar reuniones", "free": "2/mes", "free_web": "5/mes", "pro": "10/mes", "business": "Ilimitadas" },
+      { "category": "ai_features", "feature": "Sugerencias de prioridad", "free": "No", "free_web": "Si", "pro": "Si", "business": "Si" },
+      { "category": "ai_features", "feature": "Informe semanal IA", "free": "No", "free_web": "No", "pro": "No", "business": "Si" },
+      { "category": "ai_features", "feature": "Generar emails con IA", "free": "No", "free_web": "No", "pro": "No", "business": "Si" },
+      { "category": "ai_features", "feature": "Analisis productividad", "free": "No", "free_web": "No", "pro": "No", "business": "Si" },
+      { "category": "ai_engine", "feature": "Ollama local", "free": "Ilimitado", "free_web": "Ilimitado", "pro": "Ilimitado", "business": "Ilimitado" },
+      { "category": "ai_engine", "feature": "Cloud queries (sin Ollama)", "free": "10/mes", "free_web": "25/mes", "pro": "50/mes", "business": "Ilimitadas" },
+      { "category": "marketplace", "feature": "Perfil publico", "free": "Si", "free_web": "Si", "pro": "Si", "business": "Si" },
+      { "category": "marketplace", "feature": "Recibir valoraciones", "free": "Si", "free_web": "Si", "pro": "Si", "business": "Si" },
+      { "category": "marketplace", "feature": "Buscar freelancers", "free": "Si", "free_web": "Si", "pro": "Si", "business": "Si" },
+      { "category": "marketplace", "feature": "Chat con clientes", "free": "Si", "free_web": "Si", "pro": "Si", "business": "Si" },
+      { "category": "addon", "feature": "Promocion en busqueda", "free": "+0.99 EUR", "free_web": "+0.99 EUR", "pro": "+0.99 EUR", "business": "Incluida" }
     ]
   },
   "faq": {
@@ -116,6 +240,41 @@
     "contact": "Contacto",
     "made_with": "Hecho con amor",
     "rights": "Todos los derechos reservados."
+  },
+  "about": {
+    "badge": "Sobre Nooks",
+    "title_line1": "Hecho por un freelancer,",
+    "title_line2": "para freelancers.",
+    "subtitle": "Nooks nacio de la frustracion de usar cinco apps diferentes para hacer el trabajo de una sola. Una herramienta que realmente entiende como trabaja un freelancer.",
+    "story_title": "La historia",
+    "story_p1": "Soy Alberto, desarrollador y freelancer. Durante anos use una combinacion de apps para gestionar mi trabajo: una para notas, otra para tareas, otra para calendario, otra para facturacion, otra para seguimiento de tiempo. Ninguna hablaba con las demas.",
+    "story_p2": "Nooks nacio de esa frustracion. Queria una sola herramienta que conectara todo: mis notas con mis proyectos, mis tareas con mi calendario, mi tiempo con mis facturas. Y que funcionara sin conexion, con privacidad real, y sin costar una fortuna.",
+    "story_p3": "No es un producto de una gran empresa. Es un proyecto personal, construido con cuidado, disenado para resolver problemas reales de freelancers reales. Cada funcion existe porque yo la necesitaba — o porque alguien de la comunidad la pidio.",
+    "photo_alt": "Alberto — Creador de Nooks",
+    "values_title": "Lo que nos define",
+    "values": [
+      {
+        "title": "Privacidad real",
+        "desc": "Cifrado de extremo a extremo. IA local con Ollama. Tus datos nunca salen de tu dispositivo. No vendemos tu informacion — punto."
+      },
+      {
+        "title": "Disenado para freelancers",
+        "desc": "No es un ERP generico ni una app de notas con tareas pegadas. Cada funcion esta pensada para el flujo de trabajo real de un autonomo."
+      },
+      {
+        "title": "Funciona sin internet",
+        "desc": "Offline-first. Trabaja desde cualquier lugar sin depender de una conexion. Todo se sincroniza automaticamente cuando vuelves a estar en linea."
+      },
+      {
+        "title": "Precios justos",
+        "desc": "Empieza gratis. Sin trucos ni features bloqueados por detras de paywalls abusivos. Los precios estan disenados para autonomos, no para empresas."
+      }
+    ],
+    "mission_title": "La mision",
+    "mission_desc": "Dar a cada freelancer una herramienta profesional, privada y asequible para gestionar todo su trabajo — sin compromisos, sin complejidad innecesaria.",
+    "cta_title": "Forma parte del proyecto",
+    "cta_subtitle": "Nooks esta en beta. Tu feedback da forma al producto. Unete y ayuda a construir la herramienta que los freelancers merecen.",
+    "cta_button": "Unirse a la beta"
   },
   "feature_pages": {
     "back_home": "Volver al inicio",
@@ -378,7 +537,98 @@
       ],
       "cta_title": "Unete a la beta",
       "cta_subtitle": "Se de los primeros en probar Nooks y ayuda a dar forma a su futuro. Gratis durante el periodo beta.",
-      "cta_button": "Acceso Anticipado"
+      "cta_button": "Acceso Anticipado",
+      "form_title": "Solicita acceso anticipado",
+      "form_subtitle": "Rellena el formulario y te enviaremos una invitacion cuando tu plaza este lista.",
+      "form_name": "Nombre",
+      "form_name_placeholder": "Tu nombre",
+      "form_email": "Email",
+      "form_email_placeholder": "tu@email.com",
+      "form_role": "Como te defines?",
+      "form_roles": ["Freelancer", "Pequena agencia", "Autonomo", "Estudiante", "Otro"],
+      "form_message": "Que esperas de Nooks? (opcional)",
+      "form_message_placeholder": "Cuentanos que funcionalidad te interesa mas, que problema quieres resolver...",
+      "form_submit": "Solicitar acceso",
+      "form_success_title": "Solicitud enviada!",
+      "form_success_desc": "Gracias por tu interes. Te enviaremos una invitacion pronto."
+    },
+    "ollama": {
+      "badge": "IA Local y Privada",
+      "title_line1": "Tu IA, en tu",
+      "title_line2": "dispositivo.",
+      "subtitle": "Nooks ejecuta Ollama dentro de Docker para ofrecer IA local, privada e ilimitada. Un solo comando levanta todo: motor, modelo y API. Sin servidores externos, sin costes por consulta.",
+      "what_title": "Que es Ollama?",
+      "what_desc": "Ollama es un motor de IA de codigo abierto que ejecuta modelos de lenguaje en local. Nooks lo ejecuta dentro de Docker con un proxy Express que expone un endpoint simple. Todo se levanta con un solo comando — sin configuracion manual.",
+      "why_title": "Por que Ollama?",
+      "why_cards": [
+        { "title": "Privacidad total", "desc": "Tus notas, reuniones y datos nunca salen de tu dispositivo. Ningun servidor externo procesa tu informacion." },
+        { "title": "Sin coste por consulta", "desc": "Con Ollama instalado, las funciones de IA son ilimitadas y gratuitas en todos los planes. Sin limites de queries." },
+        { "title": "Funciona sin internet", "desc": "Al ejecutarse en local, puedes usar la IA de Nooks incluso sin conexion a internet." },
+        { "title": "Codigo abierto", "desc": "Ollama es open source. Puedes auditarlo, contribuir y confiar en que no hay cajas negras." }
+      ],
+      "how_title": "Como configurarlo",
+      "how_subtitle": "Sigue estos pasos para activar la IA local de Nooks en tu equipo.",
+      "steps": [
+        {
+          "title": "Instala Docker Desktop",
+          "desc": "Docker es necesario para ejecutar la infraestructura de Ollama. Disponible para macOS, Linux y Windows.",
+          "detail": "Descarga Docker Desktop desde docker.com e inicia el servicio."
+        },
+        {
+          "title": "Clona el repositorio y levanta los servicios",
+          "desc": "El repositorio incluye un docker-compose que orquesta 3 servicios: el motor Ollama, la descarga del modelo y un proxy API.",
+          "detail": "git clone https://github.com/Alberto02003/OllamaDocker.git && cd OllamaDocker && docker compose up -d"
+        },
+        {
+          "title": "Verifica que funciona",
+          "desc": "Haz una peticion de prueba al proxy para confirmar que el modelo esta listo y respondiendo.",
+          "detail": "curl http://localhost:5000/generate -X POST -H \"Content-Type: application/json\" -d '{\"prompt\":\"hola\"}'"
+        },
+        {
+          "title": "Conecta con Nooks",
+          "desc": "La app detecta automaticamente el proxy en el puerto 5000. Todas las funciones de IA usaran el motor local.",
+          "detail": "POST http://localhost:5000/generate → { \"prompt\": \"...\", \"model\": \"qwen2.5:1.5b\" }"
+        }
+      ],
+      "models_title": "Modelos recomendados",
+      "models_subtitle": "El repositorio incluye configuraciones optimizadas para estos modelos.",
+      "models": [
+        { "name": "qwen2.5:1.5b", "size": "~1 GB", "use": "Modelo por defecto — rapido, ligero, ideal para la mayoria de tareas", "recommended": true },
+        { "name": "llama3.2", "size": "~4 GB", "use": "Mayor calidad en resumenes y generacion de texto", "recommended": false },
+        { "name": "mistral", "size": "~4 GB", "use": "Buen equilibrio entre velocidad y calidad", "recommended": false }
+      ],
+      "requirements_title": "Requisitos minimos",
+      "requirements": [
+        { "label": "Docker", "value": "Docker Desktop instalado y corriendo" },
+        { "label": "RAM", "value": "3 GB (limite del contenedor)" },
+        { "label": "Disco", "value": "1 GB+ (para descargar el modelo)" },
+        { "label": "Puertos", "value": "5000 (proxy API) y 11434 (Ollama)" }
+      ],
+      "services_title": "Servicios Docker",
+      "services": [
+        { "name": "ollama", "port": "11434", "desc": "Motor LLM (Ollama nativo)" },
+        { "name": "ollama-init", "port": "—", "desc": "Descarga el modelo qwen2.5:1.5b y sale" },
+        { "name": "ollama-api", "port": "5000", "desc": "Proxy Express (Node.js) — POST /generate" }
+      ],
+      "endpoints_title": "Endpoints de IA del backend",
+      "endpoints": [
+        { "method": "POST", "path": "/ai/process-meeting", "desc": "Resume reuniones y propone acciones" },
+        { "method": "POST", "path": "/ai/extract-tasks", "desc": "Extrae tareas de texto libre" },
+        { "method": "POST", "path": "/ai/weekly-report", "desc": "Genera resumen semanal" },
+        { "method": "POST", "path": "/ai/suggest-priorities", "desc": "Sugiere prioridades del dia" },
+        { "method": "POST", "path": "/ai/generate-email", "desc": "Genera emails para clientes" },
+        { "method": "POST", "path": "/ai/analyze-productivity", "desc": "Analiza productividad" },
+        { "method": "POST", "path": "/ai/test-connection", "desc": "Verifica conexion y latencia" },
+        { "method": "GET/PUT", "path": "/ai/config", "desc": "Configuracion del proveedor (ollama vs cloud)" }
+      ],
+      "cloud_title": "Sin Ollama? Usa cloud",
+      "cloud_desc": "Si no puedes instalar Ollama, Nooks ofrece queries en la nube segun tu plan. Las funcionalidades de IA son las mismas — solo cambia donde se ejecuta el modelo.",
+      "cloud_note": "Free: 10 queries/mes — Free+Web: 25/mes — Pro: 50/mes — Business: ilimitadas",
+      "repo_title": "Repositorio publico",
+      "repo_desc": "El repositorio incluye modelos optimizados, prompts ajustados al ecosistema Nooks y documentacion detallada de configuracion.",
+      "repo_button": "Ver en GitHub",
+      "cta_title": "Prueba la IA de Nooks",
+      "cta_subtitle": "Instala Ollama, clona el repositorio y tendras IA ilimitada — gratis, privada y sin limites."
     }
   }
 }

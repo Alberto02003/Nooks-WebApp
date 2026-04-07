@@ -46,9 +46,9 @@ export default function NotesPage() {
           </motion.p>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#" className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-lime text-bg-primary font-semibold text-sm hover:-translate-y-0.5 hover:shadow-lg hover:shadow-lime/20 transition-all duration-200">
-              {t('nav.download')}
-            </a>
+            <Link to="/beta" className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-lime text-bg-primary font-semibold text-sm hover:-translate-y-0.5 hover:shadow-lg hover:shadow-lime/20 transition-all duration-200">
+              {t('hero.cta_download')}
+            </Link>
             <Link to="/" className="inline-flex items-center justify-center px-8 py-4 rounded-full border border-white/10 text-white font-medium text-sm hover:border-white/25 transition-all duration-200">
               {t('feature_pages.back_home')}
             </Link>
@@ -114,9 +114,9 @@ export default function NotesPage() {
         <div className="mx-auto max-w-4xl section-surface rounded-3xl p-12 md:p-20 text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-5">{t('feature_pages.cta_title')}</h2>
           <p className="text-text-secondary text-lg mb-10">{t('feature_pages.cta_desc')}</p>
-          <a href="#" className="inline-flex items-center justify-center px-10 py-4 rounded-full bg-lime text-bg-primary font-semibold hover:-translate-y-0.5 hover:shadow-lg hover:shadow-lime/20 transition-all duration-200">
+          <Link to="/beta" className="inline-flex items-center justify-center px-10 py-4 rounded-full bg-lime text-bg-primary font-semibold hover:-translate-y-0.5 hover:shadow-lg hover:shadow-lime/20 transition-all duration-200">
             {t('feature_pages.cta_button')}
-          </a>
+          </Link>
         </div>
       </section>
     </div>

@@ -87,6 +87,7 @@ export default function Navbar() {
           title: t('nav.intelligence'),
           links: [
             { label: t('nav.ai'), desc: t('nav.ai_desc'), to: '/features/ai' },
+            { label: t('nav.ollama'), desc: t('nav.ollama_desc'), to: '/ollama' },
           ],
         },
         {
@@ -138,7 +139,7 @@ export default function Navbar() {
             </div>
           ))}
 
-          <Link to="/#pricing" className="text-sm px-4 py-2 text-text-secondary hover:text-white transition-colors duration-200">
+          <Link to="/pricing" className="text-sm px-4 py-2 text-text-secondary hover:text-white transition-colors duration-200">
             {t('nav.pricing_link')}
           </Link>
           <Link to="/#faq" className="text-sm px-4 py-2 text-text-secondary hover:text-white transition-colors duration-200">
@@ -146,6 +147,9 @@ export default function Navbar() {
           </Link>
           <Link to="/beta" className="text-sm px-4 py-2 text-text-secondary hover:text-white transition-colors duration-200">
             Beta
+          </Link>
+          <Link to="/about" className="text-sm px-4 py-2 text-text-secondary hover:text-white transition-colors duration-200">
+            {t('nav.about')}
           </Link>
         </div>
 
@@ -157,12 +161,18 @@ export default function Navbar() {
           >
             {i18n.language === 'en' ? 'ES' : 'EN'}
           </button>
-          <a
-            href="#"
+          <Link
+            to="/login"
+            className="text-sm font-medium px-5 py-2 rounded-full border border-border-card text-text-secondary hover:text-white hover:border-white/20 transition-all duration-200"
+          >
+            {t('nav.login')}
+          </Link>
+          <Link
+            to="/register"
             className="text-sm font-medium px-5 py-2 rounded-full bg-accent text-white hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/20 transition-all duration-200"
           >
-            {t('nav.download')}
-          </a>
+            {t('nav.register')}
+          </Link>
         </div>
 
         {/* Mobile */}
@@ -213,7 +223,7 @@ export default function Navbar() {
             </Link>
           ))}
           <div className="border-t border-border-card my-2" />
-          <Link to="/#pricing" onClick={() => setMenuOpen(false)} className="text-sm text-text-secondary hover:text-white py-1">
+          <Link to="/pricing" onClick={() => setMenuOpen(false)} className="text-sm text-text-secondary hover:text-white py-1">
             {t('nav.pricing_link')}
           </Link>
           <Link to="/#faq" onClick={() => setMenuOpen(false)} className="text-sm text-text-secondary hover:text-white py-1">
@@ -222,9 +232,15 @@ export default function Navbar() {
           <Link to="/beta" onClick={() => setMenuOpen(false)} className="text-sm text-text-secondary hover:text-white py-1">
             Beta
           </Link>
-          <a href="#" className="mt-2 text-sm font-medium px-5 py-2.5 rounded-full bg-accent text-white text-center">
-            {t('nav.download')}
-          </a>
+          <Link to="/about" onClick={() => setMenuOpen(false)} className="text-sm text-text-secondary hover:text-white py-1">
+            {t('nav.about')}
+          </Link>
+          <Link to="/login" onClick={() => setMenuOpen(false)} className="mt-2 text-sm font-medium px-5 py-2.5 rounded-full border border-border-card text-text-secondary text-center hover:text-white hover:border-white/20 transition-all duration-200">
+            {t('nav.login')}
+          </Link>
+          <Link to="/register" onClick={() => setMenuOpen(false)} className="text-sm font-medium px-5 py-2.5 rounded-full bg-accent text-white text-center">
+            {t('nav.register')}
+          </Link>
         </div>
       )}
     </nav>
