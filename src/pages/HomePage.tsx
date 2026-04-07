@@ -1,11 +1,10 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import Hero from '../components/Hero';
-import StatsBar from '../components/StatsBar';
-import Features from '../components/Features';
-import HighlightCards from '../components/HighlightCards';
-import HowItWorks from '../components/HowItWorks';
-import FAQ from '../components/FAQ';
+import Hero from '../components/home/Hero';
+import StatsBar from '../components/home/StatsBar';
+import Features from '../components/home/Features';
+import HighlightCards from '../components/home/HighlightCards';
+import HowItWorks from '../components/home/HowItWorks';
 
 export default function HomePage() {
   const { hash } = useLocation();
@@ -26,7 +25,6 @@ export default function HomePage() {
       <Features />
       <HighlightCards />
       <HowItWorks />
-      <FAQ />
     </>
   );
 }

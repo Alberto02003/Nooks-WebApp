@@ -94,6 +94,9 @@ export default function Navbar() {
           title: t('nav.more'),
           links: [
             { label: t('nav.beta'), desc: t('nav.beta_desc'), to: '/beta' },
+            { label: t('nav.security'), desc: t('nav.security_desc'), to: '/security' },
+            { label: t('nav.roadmap'), desc: t('nav.roadmap_desc'), to: '/roadmap' },
+            { label: t('nav.docs'), desc: t('nav.docs_desc'), to: '/docs' },
           ],
         },
       ],
@@ -142,7 +145,7 @@ export default function Navbar() {
           <Link to="/pricing" className="text-sm px-4 py-2 text-text-secondary hover:text-white transition-colors duration-200">
             {t('nav.pricing_link')}
           </Link>
-          <Link to="/#faq" className="text-sm px-4 py-2 text-text-secondary hover:text-white transition-colors duration-200">
+          <Link to="/faq" className="text-sm px-4 py-2 text-text-secondary hover:text-white transition-colors duration-200">
             {t('nav.faq')}
           </Link>
           <Link to="/beta" className="text-sm px-4 py-2 text-text-secondary hover:text-white transition-colors duration-200">
@@ -150,6 +153,9 @@ export default function Navbar() {
           </Link>
           <Link to="/about" className="text-sm px-4 py-2 text-text-secondary hover:text-white transition-colors duration-200">
             {t('nav.about')}
+          </Link>
+          <Link to="/blog" className="text-sm px-4 py-2 text-text-secondary hover:text-white transition-colors duration-200">
+            {t('nav.blog')}
           </Link>
         </div>
 
@@ -226,7 +232,7 @@ export default function Navbar() {
           <Link to="/pricing" onClick={() => setMenuOpen(false)} className="text-sm text-text-secondary hover:text-white py-1">
             {t('nav.pricing_link')}
           </Link>
-          <Link to="/#faq" onClick={() => setMenuOpen(false)} className="text-sm text-text-secondary hover:text-white py-1">
+          <Link to="/faq" onClick={() => setMenuOpen(false)} className="text-sm text-text-secondary hover:text-white py-1">
             {t('nav.faq')}
           </Link>
           <Link to="/beta" onClick={() => setMenuOpen(false)} className="text-sm text-text-secondary hover:text-white py-1">
@@ -234,6 +240,9 @@ export default function Navbar() {
           </Link>
           <Link to="/about" onClick={() => setMenuOpen(false)} className="text-sm text-text-secondary hover:text-white py-1">
             {t('nav.about')}
+          </Link>
+          <Link to="/blog" onClick={() => setMenuOpen(false)} className="text-sm text-text-secondary hover:text-white py-1">
+            {t('nav.blog')}
           </Link>
           <Link to="/login" onClick={() => setMenuOpen(false)} className="mt-2 text-sm font-medium px-5 py-2.5 rounded-full border border-border-card text-text-secondary text-center hover:text-white hover:border-white/20 transition-all duration-200">
             {t('nav.login')}

@@ -17,6 +17,13 @@
     "ai_desc": "Smart suggestions and meeting summaries",
     "ollama": "Ollama",
     "ollama_desc": "Local, private & unlimited AI",
+    "security": "Security",
+    "security_desc": "Encryption, MFA, and real privacy",
+    "roadmap": "Roadmap",
+    "roadmap_desc": "What we're building",
+    "docs": "Documentation",
+    "docs_desc": "Guides and technical reference",
+    "blog": "Blog",
     "beta": "Beta Program",
     "beta_desc": "What's included in the MVP",
     "pricing_link": "Pricing",
@@ -225,7 +232,12 @@
       { "q": "Can I use Nooks offline?", "a": "Absolutely. Nooks works fully offline. All your data is stored locally and syncs automatically when you reconnect." },
       { "q": "Is my data secure?", "a": "Security is our priority. All data is encrypted end-to-end. We never sell or share your personal information." },
       { "q": "Can I switch plans at any time?", "a": "Yes. Upgrade or downgrade whenever you want. Pro features are available immediately on upgrade." },
-      { "q": "What platforms is Nooks available on?", "a": "Nooks is available on iOS and Android. A web version is coming soon." }
+      { "q": "What platforms is Nooks available on?", "a": "Nooks is available on iOS and Android. A web version is coming soon." },
+      { "q": "What is Ollama and why does Nooks use it?", "a": "Ollama is an open-source AI engine that runs language models locally. Nooks uses it to offer AI features without sending your data to external servers. It's free and unlimited on all plans." },
+      { "q": "Do I need to install Ollama to use Nooks?", "a": "No. Ollama is optional. Without it, Nooks uses cloud queries based on your plan. With Ollama installed, AI queries are unlimited and free." },
+      { "q": "How does invoicing work?", "a": "Depending on your plan, you can generate monthly invoices with tax details. The Business plan includes PDF with your logo and unlimited invoices." },
+      { "q": "Can I have both a freelancer and client account?", "a": "Yes. With a single email you can have two linked accounts: one as a freelancer and one as a client. Switch roles with a tap from your profile." },
+      { "q": "What happens to my data if I cancel my account?", "a": "All your data is permanently deleted within 30 days. Encrypted backups are deleted within 90 days. You can export your data before canceling." }
     ]
   },
   "cta": {
@@ -275,6 +287,292 @@
     "cta_title": "Be part of the project",
     "cta_subtitle": "Nooks is in beta. Your feedback shapes the product. Join and help build the tool freelancers deserve.",
     "cta_button": "Join the beta"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "last_updated": "Last updated: April 7, 2026",
+      "sections": [
+        { "title": "1. Data controller", "content": "The data controller for your personal data is Alberto, creator of Nooks. You can contact us at contacto@nooks.app." },
+        { "title": "2. What data we collect", "content": "We collect data you provide when registering (name, email) and data you generate while using the app (notes, tasks, projects, events, tracked time, invoices). If you use Google Sign-In, we receive your name and email from Google. We do not access any other data from your Google account." },
+        { "title": "3. How we use your data", "content": "We use your data exclusively to provide the service: store your content, sync across devices, manage your account, and process payments. We do not sell, share, or transfer your data to third parties for commercial purposes." },
+        { "title": "4. Encryption and security", "content": "All sensitive data is end-to-end encrypted. Passwords are stored with bcrypt. Session tokens are kept in secure device storage. All communications are conducted over HTTPS." },
+        { "title": "5. AI and privacy", "content": "When using Ollama (local AI), your data never leaves your device. When using cloud queries, data is sent to the processing server and deleted immediately after generating the response. We do not train models with your data." },
+        { "title": "6. Cookies", "content": "We use technical cookies necessary for the app to function (session, language preferences). We do not use tracking or advertising cookies." },
+        { "title": "7. Your rights (GDPR)", "content": "You have the right to access, rectify, delete, and port your data. You can exercise these rights from your account settings or by contacting us at contacto@nooks.app. We respond within a maximum of 30 days." },
+        { "title": "8. Data retention", "content": "We retain your data as long as your account is active. If you delete your account, all your data is permanently deleted within 30 days. Encrypted backups are deleted within 90 days." },
+        { "title": "9. Minors", "content": "Nooks is not intended for children under 16. We do not knowingly collect data from minors." },
+        { "title": "10. Changes to this policy", "content": "We may update this policy periodically. We will notify you of significant changes by email or through a notice in the app." }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "last_updated": "Last updated: April 7, 2026",
+      "sections": [
+        { "title": "1. Acceptance of terms", "content": "By registering and using Nooks, you accept these terms of service. If you do not agree, do not use the service." },
+        { "title": "2. Service description", "content": "Nooks is a productivity tool for freelancers that includes notes management, tasks, projects, calendar, time tracking, invoicing, and an AI assistant. Available as a mobile app and web app." },
+        { "title": "3. Accounts and registration", "content": "You are responsible for maintaining the security of your account and password. Nooks offers additional security layers (MFA, PIN, biometric) that we recommend configuring. A person may have up to two accounts linked to the same email (freelancer and client)." },
+        { "title": "4. Plans and payments", "content": "Nooks offers free and paid plans. Prices are published on the pricing page and may change with 30 days' prior notice. Payments are processed monthly. You can cancel at any time and will retain access until the end of the paid period." },
+        { "title": "5. Your content", "content": "All content you create in Nooks (notes, tasks, projects, invoices) belongs to you. Nooks does not claim any ownership rights over your content. You can export your data at any time." },
+        { "title": "6. Acceptable use", "content": "You may not use Nooks for illegal activities, distribute malware, attempt to access other users' accounts, or reverse engineer the software. Abusive use may result in account suspension." },
+        { "title": "7. Service availability", "content": "We strive to keep Nooks available 24/7, but we do not guarantee uninterrupted availability. Nooks works offline, so most features remain available without a connection." },
+        { "title": "8. Limitation of liability", "content": "Nooks is provided as-is. We are not responsible for data loss caused by misuse, device failures, or circumstances beyond our control." },
+        { "title": "9. Cancellation", "content": "You can cancel your account at any time from settings. Upon cancellation, your data is permanently deleted according to our retention policy. Payments already made are non-refundable, unless applicable law provides otherwise." },
+        { "title": "10. Governing law", "content": "These terms are governed by Spanish law. For any dispute, the parties submit to the courts and tribunals of the city of residence of the service provider." }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a question, suggestion, or issue? Write to us and we'll get back to you as soon as possible.",
+    "form_name": "Name",
+    "form_name_placeholder": "Your name",
+    "form_email": "Email",
+    "form_email_placeholder": "you@email.com",
+    "form_subject": "Subject",
+    "form_subjects": ["General question", "Technical issue", "Billing", "Partnership", "Other"],
+    "form_message": "Message",
+    "form_message_placeholder": "Tell us how we can help...",
+    "form_submit": "Send message",
+    "form_success_title": "Message sent",
+    "form_success_desc": "Thanks for reaching out. We'll get back to you as soon as possible.",
+    "info_title": "Other ways to reach us",
+    "info_email": "contacto@nooks.app",
+    "info_response": "We respond within 48 hours"
+  },
+  "not_found": {
+    "title": "404",
+    "subtitle": "The page you're looking for doesn't exist or has been moved.",
+    "button": "Back to home"
+  },
+  "security": {
+    "badge": "Nooks Security",
+    "title_line1": "Your data,",
+    "title_line2": "truly protected.",
+    "subtitle": "Bank-grade encryption, biometric access, and secure storage. Nooks is designed so your information is never exposed.",
+    "sections": [
+      {
+        "title": "Data encryption",
+        "icon": "shield",
+        "items": [
+          "All sensitive data (notes, diary) is encrypted with AES-256-GCM, the same standard used by banks and governments",
+          "Encryption keys are derived uniquely per user with 100,000 strengthening iterations",
+          "Keys are stored in the operating system's secure vault (Keychain on iOS, Keystore on Android)"
+        ]
+      },
+      {
+        "title": "App access",
+        "icon": "fingerprint",
+        "items": [
+          "4-6 digit PIN to unlock the app",
+          "Fingerprint / Face ID as an alternative to PIN",
+          "Password with security requirements: minimum 8 characters, uppercase, number, and symbol",
+          "Automatic data wipe after 5 failed attempts (optional)"
+        ]
+      },
+      {
+        "title": "Session & communication",
+        "icon": "lock",
+        "items": [
+          "Sessions use secure tokens that are automatically renewed",
+          "All server communication is encrypted via HTTPS",
+          "If the session expires, it closes automatically and local data is cleared",
+          "On logout, everything is wiped: tokens, user data, and cache"
+        ]
+      },
+      {
+        "title": "Local storage",
+        "icon": "database",
+        "items": [
+          "Passwords and tokens are stored in the device's secure vault (never in plain text)",
+          "PIN is stored encrypted",
+          "Diary data is encrypted before being saved"
+        ]
+      }
+    ],
+    "wip_title": "What we're working on",
+    "wip_items": [
+      "Two-factor authentication (time-based codes)",
+      "End-to-end encryption between devices"
+    ],
+    "cta_title": "Security without compromises",
+    "cta_subtitle": "Your information is yours. Nooks is designed so you maintain full control over your data."
+  },
+  "blog": {
+    "badge": "Blog",
+    "title": "News &\nupdates",
+    "subtitle": "The latest from Nooks: new features, behind the scenes, and tips for freelancers.",
+    "coming_soon": "Coming soon",
+    "coming_soon_desc": "We're preparing the first articles. Come back soon or join the beta to receive updates by email.",
+    "posts": [
+      {
+        "title": "Nooks enters public beta",
+        "excerpt": "After months of development, Nooks is ready for its first users. Here's what the MVP includes and how to join.",
+        "date": "April 2026",
+        "tag": "Launch"
+      },
+      {
+        "title": "Why Ollama and not the cloud",
+        "excerpt": "The decision to use local AI as the main engine wasn't obvious. We explain the technical, economic, and privacy reasons.",
+        "date": "April 2026",
+        "tag": "Technology"
+      },
+      {
+        "title": "Pricing for freelancers: our philosophy",
+        "excerpt": "Starting low and raising is easy. Starting high and lowering is a sign of failure. This is how we think about Nooks pricing.",
+        "date": "April 2026",
+        "tag": "Product"
+      }
+    ]
+  },
+  "roadmap": {
+    "badge": "Roadmap",
+    "title": "Where Nooks\nis heading.",
+    "subtitle": "Full transparency on what we're building, what's coming next, and what we're planning long-term.",
+    "phases": [
+      {
+        "id": "today",
+        "phase": "Today",
+        "status": "active",
+        "title": "Mobile App",
+        "desc": "What's already working",
+        "groups": [
+          {
+            "title": "Productivity",
+            "items": ["Task and project management with Kanban view", "Timer and hour tracking", "Notes and diary with encryption", "Calendar with Google Calendar integration"]
+          },
+          {
+            "title": "Artificial Intelligence",
+            "items": ["Meeting summaries", "Priority suggestions", "Email generation"]
+          },
+          {
+            "title": "Security",
+            "items": ["PIN and biometrics", "AES-256 encryption", "Offline support"]
+          }
+        ]
+      },
+      {
+        "id": "web",
+        "phase": "Coming soon",
+        "status": "planned",
+        "title": "Web App",
+        "desc": "Full replica of the mobile app in the browser",
+        "groups": [
+          {
+            "title": "Core modules",
+            "items": ["Dashboard with daily summary, tasks, hours, and active projects", "Projects with Kanban, notes, time, and per-project billing", "Notes with markdown editor, tags, bookmarks, and PDF export", "Calendar with month/week/day views", "Time tracking with visual timeline and global timer"]
+          },
+          {
+            "title": "Billing & AI",
+            "items": ["Invoice generator with step-by-step wizard, PDF, and sending", "Quick AI actions: what should I do today, weekly report, email draft, productivity analysis"]
+          },
+          {
+            "title": "Experience",
+            "items": ["Keyboard shortcuts and command palette (Ctrl+K)", "Works offline (cached shell, timer keeps running)", "Public landing with pricing, features, and registration"]
+          }
+        ]
+      },
+      {
+        "id": "launch",
+        "phase": "Launch",
+        "status": "planned",
+        "title": "Polish & release",
+        "desc": "Preparation for the official launch",
+        "groups": [
+          {
+            "title": "Quality",
+            "items": ["Full tests on mobile and web", "Guided onboarding: set up profile, create first project, connect AI"]
+          },
+          {
+            "title": "Distribution",
+            "items": ["App store optimization (screenshots, keywords)", "Landing with SEO, Open Graph, and sitemap"]
+          }
+        ]
+      },
+      {
+        "id": "post",
+        "phase": "Post-launch",
+        "status": "future",
+        "title": "Client Portal & Marketplace",
+        "desc": "Two account types, real-time chat, and freelancer directory",
+        "groups": [
+          {
+            "title": "Client portal",
+            "items": ["View project progress (completed tasks, milestones)", "Comment and request revisions", "Request meetings", "Direct chat with freelancer", "Rate freelancer on completion (quality, communication, punctuality)"]
+          },
+          {
+            "title": "Marketplace",
+            "items": ["Freelancer directory with search by name, skill, and category", "Public profile: bio, skills, average rating, completed projects", "Filter by minimum rating", "Freelancer decides whether to appear (opt-in)"]
+          },
+          {
+            "title": "Real-time chat",
+            "items": ["Instant messages between freelancer and client", "File sharing", "Read indicator", "Push notifications", "Optionally linked to a project"]
+          }
+        ]
+      }
+    ],
+    "roles_title": "Freelancer vs Client",
+    "roles_headers": ["Feature", "Freelancer", "Client"],
+    "roles": [
+      { "feature": "Price", "freelancer": "Per plan", "client": "Always free" },
+      { "feature": "Create projects", "freelancer": "Yes", "client": "No" },
+      { "feature": "Track progress", "freelancer": "Yes", "client": "Yes" },
+      { "feature": "Timer & hours", "freelancer": "Yes", "client": "No" },
+      { "feature": "Billing", "freelancer": "Yes", "client": "No" },
+      { "feature": "AI", "freelancer": "Yes", "client": "No" },
+      { "feature": "Chat", "freelancer": "Yes", "client": "Yes" },
+      { "feature": "Reviews", "freelancer": "Receives", "client": "Leaves" },
+      { "feature": "Explore freelancers", "freelancer": "No", "client": "Yes" }
+    ],
+    "roles_note": "A single email can have both a freelancer and client account, with instant switching from profile.",
+    "suggest_title": "Have an idea?",
+    "suggest_desc": "We build the roadmap with the community. If something's missing, let us know."
+  },
+  "docs": {
+    "badge": "Documentation",
+    "title": "Learn to use\nNooks.",
+    "subtitle": "Guides, tutorials, and technical reference to get the most out of Nooks.",
+    "categories": [
+      {
+        "title": "Getting started",
+        "icon": "rocket",
+        "items": [
+          { "title": "Create your account", "desc": "Registration, role selection, and onboarding" },
+          { "title": "Set up security", "desc": "PIN, biometric, and two-step verification" },
+          { "title": "Your first project", "desc": "Create a project, add tasks, and start working" }
+        ]
+      },
+      {
+        "title": "Features",
+        "icon": "grid",
+        "items": [
+          { "title": "Notes & editor", "desc": "Rich text, tags, bookmarks, and search" },
+          { "title": "Tasks & time tracking", "desc": "Priorities, due dates, timer, and billable hours" },
+          { "title": "Projects & Kanban", "desc": "Boards, clients, billing, and templates" },
+          { "title": "Calendar", "desc": "Views, recurrence, Google Calendar, and reminders" }
+        ]
+      },
+      {
+        "title": "AI & Ollama",
+        "icon": "sparkles",
+        "items": [
+          { "title": "Set up Ollama", "desc": "Docker, models, and connecting with the app" },
+          { "title": "AI features", "desc": "Summaries, task extraction, and suggestions" },
+          { "title": "Cloud vs Local", "desc": "Differences, plan limits, and when to use each" }
+        ]
+      },
+      {
+        "title": "Account & billing",
+        "icon": "user",
+        "items": [
+          { "title": "Plans & pricing", "desc": "Free, Free+Web, Pro, and Business" },
+          { "title": "Dual accounts", "desc": "Freelancer and client with a single email" },
+          { "title": "Export data", "desc": "Download your notes, tasks, and projects" }
+        ]
+      }
+    ],
+    "coming_soon": "Content in development",
+    "coming_soon_desc": "We're writing the detailed guides. In the meantime, explore the app or contact us if you have questions."
   },
   "feature_pages": {
     "back_home": "Back to home",
